@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!-- meta -->
+		<title>Photography Portfolio</title>
+
+		<!-- custom fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+
+		<!-- styles -->
+		<link href="Assets/css/homePage.css" rel="stylesheet" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Javascript - jQuery -->
+		<!-- <script type="text/javascript" src="Assets/js/vendor/jquery-3.4.1.min.js"></script> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+
+				$(".menuButton").click(function(){
+					event.preventDefault();
+	  				$(".menuAtTopNav").css("display","block");
+				});
+
+				$(".menuAtTopCloseAnchor").click(function(){
+					event.preventDefault();
+	  				$(".menuAtTopNav").css("display","none");
+				});
+
+			});
+		</script>
+
+	</head>
+
+	<body>
+
+		<nav class="menuAtTopNav">
+			<ul>
+				<li class="menuAtTopCloseButton" ><a class="menuAtTopCloseAnchor" href="">x</a></li>
+				<li class="menuAtTopHomeButton" ><a href="index.html">HOME</a></li>
+				<li class="menuAtTopBlogButton" ><a href="blog.html">BLOG</a></li>
+				<li class="menuAtTopContactButton"><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</nav>
+
+		<header class="header">
+			
+			<div class="IgnisLogoAndMenu">
+
+				<img class="ignisLogo" src=".\Assets\img\logo-ignis.png" alt="The Ignis logo" />
+
+				<a class="menuButton" href=""><img class="menuIcon" src=".\Assets\icons\icon-menu.svg" alt="Menu" /></a>
+
+				<nav class="menuNav">
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href=""><img class="searchIcon" src="Assets/icons/icon-search.svg" alt="Search icon"></a></li>
+					</ul>
+				</nav>
+
+			</div>
+
+
+			<section>
+			
+				<div class="homePage__hero">
+			
+					<img class="homePage__heroImage" src=".\Assets\img\hero.jpeg" alt="Woman holding her arms to her chest">
+					<div class="homePage__text">
+						<div class="homePage__textOverHeroLine1">My name is Joe<em>.</em></div>
+						<div class="homePage__textOverHeroLine2">I'm a <em>photographer</em></div>
+						<div class="homePage__textOverHeroLine3">Scroll down to begin your adventure</div>
+					</div>
+
+					<input class="homePage__searchInput" type="text" placeholder="Search..." id="homePage__searchInput" />
+
+				</div>
+
+
+			</section>
+
+		</header>
+
+
+		<main>
+
+			<section class="homePage__photos">
+
+				<div class="homePage__photosFirstColumn">
+
+					<div class="homePage__imageBox homePage__imageBox1">
+						<img class="homePage__image" src=".\Assets\img\portrait.jpg" alt="Woman with red hair and large earrings">
+					</div>
+					
+					<div class="homePage__imageBox homePage__imageBox2">
+						<img class="homePage__image" src=".\Assets\img\cup.jpg" alt="Cake on a spoon on top of a cup with no handle">
+					</div>
+
+					<div class="homePage__imageBox homePage__imageBox3">
+						<img class="homePage__image" src=".\Assets\img\guitar.jpg" alt="Guitar">
+					</div>
+
+				</div>
+
+				<div class="homePage__photosSecondColumn">
+
+					<div class="homePage__imageBox homePage__imageBox4">
+						<img class="homePage__image" src=".\Assets\img\woods.jpg" alt="Woman in a forest">
+					</div>
+
+					<div class="homePage__imageBox homePage__imageBox5">
+						<img class="homePage__image" src=".\Assets\img\portraitBW.jpg" alt="Black and white photograph of a man smiling">
+					</div>
+
+					<div class="homePage__imageBox homePage__imageBox6">
+						<img class="homePage__image" src=".\Assets\img\gorilla.jpg" alt="Gorilla">
+					</div>
+
+					<div class="homePage__imageBox homePage__imageBox7">
+						<img class="homePage__image" src=".\Assets\img\graf.jpg" alt="Man with a moustache">
+					</div>
+
+					<div class="homePage__imageBox homePage__imageBox8">
+						<img class="homePage__image" src=".\Assets\img\tape.jpg" alt="Cassette tape">
+					</div>
+
+				</div>
+
+
+			</section>				
+
+			<footer class="footer">
+
+				<nav>
+
+					<ul>
+
+						<li><a href=""></a><img src="Assets/icons/icon-social-facebook.svg" alt="Facebook"></li>
+						<li><a href=""></a><img src="Assets/icons/icon-social-twitter.svg" alt="Twitter"></li>
+						<li><a href=""></a><img src="Assets/icons/icon-social-dribble.svg" alt="Dribble"></li>
+						<li><a href=""></a><img src="Assets/icons/icon-social-linkedin.svg" alt="LinkedIn"></li>
+						<li><a href=""></a><img src="Assets/icons/icon-social-youtube.svg" alt="YouTube"></li>
+
+					</ul>
+
+				</nav>
+
+			</footer>
+
+		</main>
+
+	</body>
+</html>

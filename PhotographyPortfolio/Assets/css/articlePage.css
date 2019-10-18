@@ -1,0 +1,100 @@
+@import "global.css";
+
+
+@media only screen and (max-width: 991px) { /* mobile - small width */
+
+	.article__article {
+		margin: 50px;
+	}
+
+	.article__aside {
+		margin: 50px;
+	}
+
+}
+
+@media only screen and (min-width: 992px) { /* tablet and laptop/desktop - medium/large width */
+
+	.article__article {
+		float: left;
+		display: inline-block;
+		margin-top: 50px;
+		margin-right: 0px;
+		margin-bottom: 50px;
+		margin-left: 50px;
+	}
+
+	.article__aside {
+		float: right;
+		display: inline-block;
+		margin-top: 50px;
+		margin-right: 50px;
+		margin-bottom: 50px;
+		margin-left: 0px;
+	}
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) { /* tablet and laptop/desktop - medium/large width */
+
+	.article__article {
+		width: 60%;
+	}
+
+	.article__aside {
+		width: 25%;
+	}
+
+}
+
+
+@media only screen and (min-width: 1200px) { /* laptop/desktop only - large width */
+
+	.article__article {
+		width: 55%;
+	}
+
+	.article__aside {
+		width: 30%;
+	}
+
+}
+
+.article__mainImage {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+}
+
+.article__input {
+	padding: 15px 5px;	
+}
+
+.article__input {
+	margin-bottom: 10px;
+}
+
+.article__aside h2 {
+	padding-top: 30px;
+	font-family: 'Nunito', sans-serif; 
+}
+
+.article__aside a {
+	text-decoration: none;
+}
+
+.article__aside ul {
+	margin-left: -20px;
+}
+
+.article__aside li {
+	margin-bottom: 10px;
+}
+
+.article__postingDate {
+	color: #b2b5ba;
+	font-size: 80%;
+	margin-top: 50px;
+}
+

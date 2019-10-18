@@ -1,0 +1,139 @@
+@import "global.css";
+
+@media only screen and (max-width: 991px) { /* mobile - small width */
+
+	.homePage__photos {
+		display: flex;
+		flex-direction: column;
+	}
+
+
+	.homePage__imageBox {
+		display: block;
+	  	margin-left: auto;
+	  	margin-right: auto;
+	  	width: 100%;
+	  	padding: 15px 15px 0px 15px;
+	}
+
+	.homePage__photosFirstColumn {
+		display: contents;
+	}
+
+
+	.homePage__photosSecondColumn {
+		display: contents;
+	}
+
+	.homePage__imageBox1 {
+		order: 1;
+	}
+
+	.homePage__imageBox2 {
+		order: 4;
+	}
+
+	.homePage__imageBox3 {
+		order: 7;
+	}
+
+	.homePage__imageBox4 {
+		order: 2;
+	}
+
+	.homePage__imageBox5 {
+		order: 3;
+	}
+
+	.homePage__imageBox6 {
+		order: 5;
+	}
+
+	.homePage__imageBox7 {
+		order: 6;
+	}
+
+	.homePage__imageBox8 {
+		order: 8;
+	}
+
+}
+
+@media only screen and (min-width: 992px) { /* tablet and laptop/desktop - medium/large width */
+
+	.homePage__photos {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.homePage__imageBox {
+		display: block;
+	  	width: 100%;
+	  	padding: 40px 20px 0px 20px;
+	}
+
+}
+
+.homePage__searchInput {
+	display: none;
+}
+
+@media only screen and (min-width: 1200px) { /* laptop/desktop - large width */
+	.homePage__searchInput {
+		/*display: block;*/                           /******* Uncomment this out to get the search box ********/
+	}
+}
+
+.homePage__image {
+	display: block;
+ 	width: 100%;
+}
+
+
+@media only screen and (min-width: 1200px) { /* laptop/desktop - large width */
+
+	.homePage__hero {
+		position: relative;
+	}
+}
+
+.homePage__heroImage {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+}
+
+.homePage__text {
+	position: absolute;
+	top: 35%;
+	left: 16px;
+	text-align: left;
+}
+
+.homePage__searchInput {
+	position: absolute;
+	top: 0;
+	right:0;
+	padding: 10px;
+}
+
+.homePage__textOverHeroLine1 {
+	color: white;
+}
+
+.homePage__textOverHeroLine1 em {
+	color: red;
+}
+
+.homePage__textOverHeroLine2 {
+	color: white;
+}
+
+.homePage__textOverHeroLine2 em {
+	color: cyan;
+}
+
+.homePage__textOverHeroLine3 {
+	color: grey;
+}

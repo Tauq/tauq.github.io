@@ -1,0 +1,197 @@
+@import "normalize.css";
+
+
+* {
+	box-sizing: border-box; /* Because this is more sane :) */
+	color: #4a4a4a;
+	font-family: 'Poppins', sans-serif;
+}
+
+a {
+	color: inherit;
+}
+
+
+.menuAtTopNav {
+	display: none;
+}
+
+
+@media only screen and (max-width: 1199px) { /* mobile and tablet - small/medium width */
+
+	body {
+		position: relative;
+	}
+
+	.menuAtTopNav {
+		position: fixed;    
+		top: 0;
+		left: 0;
+		/*display: block; */                   /* Uncomment this out to get the top menu at startup */
+		background-color: black;
+		padding-bottom: 10px;
+		width: 100%;
+	}
+	
+	.menuAtTopNav ul {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;		
+	}
+
+	.menuAtTopNav li {
+		display: inline-block; /* Gets rid of the dot before the item*/
+		padding: 20px;
+	}
+	
+	.menuAtTopCloseButton {
+		align-self: flex-end;
+	}
+	
+	.menuAtTopHomeButton, .menuAtTopBlogButton, .menuAtTopContactButton {
+		align-self: center;
+	}
+	
+	.menuAtTopNav a {
+		color: white;
+		text-decoration: none;
+	}
+	
+}
+
+.header {
+	text-align: center;
+}
+
+
+.menuNav {
+	display: none;
+}
+
+.IgnisLogoAndMenu {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.clearfix {
+	clear: both;
+}
+
+
+@media only screen and (min-width: 992px) { /* tablet and laptop/desktop - medium/large width */
+
+	.IgnisLogoAndMenu {
+		flex-direction: row;
+		justify-content: space-between;
+		padding: 30px;
+	}
+
+}
+
+@media only screen and (min-width: 1200px) { /* laptop/desktop only - large width */
+
+	.menuIcon {
+		display: none;
+	}
+
+	.menuNav {
+		display: block;
+	}
+
+	.menuNav ul {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.menuNav li {
+		margin: 0 15px;
+		display: inline-block; /* Gets rid of the dot before the item*/
+	}
+
+	.menuNav li a {
+		text-decoration: none;
+	}
+}
+
+
+
+.searchIcon {
+	max-height: 30px;
+	max-width: 30px;
+	background-color: #fff0e9;
+	border-radius: 50%;
+	padding: 10px;
+}
+
+.searchIcon:hover {
+	background-color: red;
+}
+
+
+.footer {
+	margin-top: 100px;
+}
+
+.footer ul {
+	display: flex;
+	justify-content: center;
+}
+
+.footer li  {
+	display: inline-block;
+}
+
+.footer img {
+	max-height: 40px;
+	max-width: 40px;
+	background-color: #fff0e9;
+	border-radius: 50%;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding: 10px;
+}
+
+.ignisLogo {
+	max-height: 80px;
+	max-width: 200px;
+}
+
+.menuIcon {
+	max-height: 40px;
+	max-width: 40px;
+}
+
+.sectionTitle {
+	text-align: center;
+	background-color: #fff0e9;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: black;
+}
+
+
+.tag {
+	display: inline-block;
+	background-color: #41cadd;
+	padding: 5px;
+	color: white;
+}
+
+
+.tagList {
+	margin-left: -40px;
+
+}
+
+.linkNoUnderline {
+	text-decoration: none;
+}
+
+.pinkButton {
+	background-color:  #ff6a7c;
+	color: white;
+	padding: 15px 20px;
+}

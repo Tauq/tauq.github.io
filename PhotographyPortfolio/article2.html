@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!-- meta -->
+		<title>Photography Portfolio</title>
+
+		<!-- custom fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+
+		<!-- styles -->
+		<link href="Assets/css/articlePage.css" rel="stylesheet" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+
+				$(".menuButton").click(function(){
+					event.preventDefault();
+	  				$(".menuAtTopNav").css("display","block");
+				});
+
+				$(".menuAtTopCloseAnchor").click(function(){
+					event.preventDefault();
+	  				$(".menuAtTopNav").css("display","none");
+				});
+
+			});
+		</script>
+
+
+	</head>
+
+	<body>
+
+		<nav class="menuAtTopNav">
+			<ul>
+				<li class="menuAtTopCloseButton" ><a class="menuAtTopCloseAnchor" href="">x</a></li>
+				<li class="menuAtTopHomeButton" ><a href="index.html">HOME</a></li>
+				<li class="menuAtTopBlogButton" ><a href="blog.html">BLOG</a></li>
+				<li class="menuAtTopContactButton"><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</nav>
+			
+
+		<header class="header">
+
+			<div class="IgnisLogoAndMenu">
+
+				<img class="ignisLogo" src=".\Assets\img\logo-ignis.png" alt="The Ignis logo" />
+
+				<a class="menuButton" href=""><img class="menuIcon" src=".\Assets\icons\icon-menu.svg" alt="Menu" /></a>
+
+				<nav class="menuNav">
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href=""><img class="searchIcon" src="Assets/icons/icon-search.svg" alt="Search icon"></a></li>
+					</ul>
+				</nav>
+
+			</div>
+
+		</header>
+
+
+
+		<main>
+
+			<section class="sectionTitle">
+
+				<h1>Hello world!</h1>
+
+			</section>
+
+			<div class="article__articleAndAside">
+				
+				<article class="article__article">
+				
+					<img class="article__mainImage" src=".\Assets\img\woods.jpg" alt="Woman in a forest">
+
+					<p class="article__postingDate">Posted on May 3, 2017 by vlad</p>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+					<ul class="tagList">
+						<li class="tag"><a class="linkNoUnderline" href="">Work</a></li>
+					</ul>
+
+				</article>
+
+
+				<aside class="article__aside">
+				
+					<form>
+						<input class="article__input" type="text" placeholder="Search..." name="searchInput" id="searchInput" />	
+						<button class="pinkButton" type="submit">Search</button>
+					</form>
+
+					<h2>Recent Posts</h2>	
+					<ul>
+						<li><a href="article1.html">Ut vestibulum velit et tortor</a></li>
+						<li><a href="article3.html">Curabitur sed arcu commodo</a></li>
+						<li><a href="article4.html">Lorem Ipsum is simply dummy</a></li>
+						<li><a href="article2.html">Hello world!</a></li>
+					</ul>
+
+
+					<h2>Recent Comments</h2>	
+					<ul>
+						<li><a href="">Anonymous on Hello world!</a></li>
+						<li><a href="">Maria on Woo Ninja</a></li>
+						<li><a href="">Maria on Woo Logo</a></li>
+						<li><a href="">Maria on Ninja Silhouette</a></li>
+						<li><a href="">Maria on Woo Ninja</a></li>
+					</ul>
+
+					<h2>Archives</h2>	
+					<ul>
+						<li><a href="">June 2017</a></li>
+						<li><a href="">May 2017</a></li>
+					</ul>
+
+					<h2>Categories</h2>	
+					<ul>
+						<li><a href="">Uncategorized</a></li>
+						<li><a href="">Work</a></li>
+					</ul>
+
+					<h2>Meta</h2>	
+					<ul>
+						<li><a href="">Log in</a></li>
+						<li><a href="">Entries RSS</a></li>
+						<li><a href="">Comments RSS</a></li>
+						<li><a href="">WordPress.org</a></li>
+					</ul>
+
+				</aside>
+
+			</div>
+
+
+
+			<footer class="footer clearfix">
+
+				<nav>
+
+					<ul>
+
+						<li><a href=""></a><img src="Assets/icons/icon-social-facebook.svg" alt="Facebook"></li>
+						<li><a href=""></a><img src="Assets/icons/icon-social-twitter.svg" alt="Twitter"></li>
+						<li><a href=""></a><img src="Assets/icons/icon-social-dribble.svg" alt="Dribble"></li>
+						<li><a href=""></a><img src="Assets/icons/icon-social-linkedin.svg" alt="LinkedIn"></li>
+						<li><a href=""></a><img src="Assets/icons/icon-social-youtube.svg" alt="YouTube"></li>
+
+					</ul>
+
+				</nav>
+
+			</footer>
+
+		</main>
+
+	</body>
+</html>

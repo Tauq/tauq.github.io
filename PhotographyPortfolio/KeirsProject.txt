@@ -1,0 +1,16 @@
+CSS folder, core, modules, vendor folder
+
+normalize.css in vendor folder
+
+Use standard page layout, defined in CSS for header, main, footer, using flexbox. So that the footer is at the bottom of the page, even if there's not enough content to make it fill the page.
+
+print stylesheet for printed output.
+
+main.css - @import statements for core and module files.
+
+Modules are things like banners, header navs, etc. Each in a different file. Naming convention something like filename__thing.
+
+Same approach for Javascript. Use same naming convention as CSS. e.g. banner.js, banner.css.
+
+
+

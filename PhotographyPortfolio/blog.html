@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<!-- meta -->
+		<title>Photography Portfolio</title>
+
+		<!-- custom fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+
+
+		<!-- styles -->
+		<link href="Assets/css/blogPage.css" rel="stylesheet" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+		<!-- Javascript - jQuery -->
+		<!-- <script type="text/javascript" src="Assets/js/vendor/jquery-3.4.1.min.js"></script> -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+
+				$(".menuButton").click(function(){
+					event.preventDefault();
+	  				$(".menuAtTopNav").css("display","block");
+				});
+
+				$(".menuAtTopCloseAnchor").click(function(){
+					event.preventDefault();
+	  				$(".menuAtTopNav").css("display","none");
+				});
+
+			});
+		</script>
+		
+	</head>
+
+	<body>
+
+		<nav class="menuAtTopNav">
+			<ul>
+				<li class="menuAtTopCloseButton" ><a class="menuAtTopCloseAnchor" href="">x</a></li>
+				<li class="menuAtTopHomeButton" ><a href="index.html">HOME</a></li>
+				<li class="menuAtTopBlogButton" ><a href="blog.html">BLOG</a></li>
+				<li class="menuAtTopContactButton"><a href="contact.html">CONTACT</a></li>
+			</ul>
+		</nav>
+			
+		<header class="header">
+			
+			<div class="IgnisLogoAndMenu">
+
+				<img class="ignisLogo" src=".\Assets\img\logo-ignis.png" alt="The Ignis logo" />
+
+				<a class="menuButton" href=""><img class="menuIcon" src=".\Assets\icons\icon-menu.svg" alt="Menu" /></a>
+
+				<nav class="menuNav">
+					<ul>
+						<li><a href="index.html">HOME</a></li>
+						<li><a href="blog.html">BLOG</a></li>
+						<li><a href="contact.html">CONTACT</a></li>
+						<li><a href=""><img class="searchIcon" src="Assets/icons/icon-search.svg" alt="Search icon"></a></li>
+					</ul>
+				</nav>
+
+			</div>
+
+
+		</header>
+
+
+		<main>
+
+			<section class="sectionTitle">
+
+				<h1>Blog</h1>
+
+			</section>
+
+			<div class="blog__allBlogItems">
+
+				<div class="blog__column1">
+
+					<article class="blog__article blog__article1">
+						
+						<a href="article1.html"><img class="blog__image" src=".\Assets\img\tape.jpg" alt="Cassette tape"></a>
+
+						<div class="blog__itemDetails">
+
+							<ul class="tagList">
+								<li class="tag"><a class="linkNoUnderline" href="">Uncategorized</a></li>
+								<li class="tag"><a class="linkNoUnderline" href="">Work</a></li>
+							</ul>
+
+							<div>
+								<h2>Ut vestibulum velit et tortor</h2>
+								<p class="blog__postingDate">Posted on June 7, 2017</p>
+							</div>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam [...]</p>
+
+							<a href="article1.html">Continue reading</a>
+
+						</div>
+
+					</article>
+
+					<article class="blog__article blog__article2">
+							
+						<a href="article2.html"><img class="blog__image" src=".\Assets\img\woods.jpg" alt="Woman in a forest"></a>
+
+						<div class="blog__itemDetails">
+
+							<ul class="tagList">
+								<li class="tag"><a class="linkNoUnderline" href="">Work</a></li>
+							</ul>
+
+							<div>
+								<h2>Hello world!</h2>
+								<p class="blog__postingDate">Posted on May 3, 2017</p>
+							</div>
+
+							<p>Welcome to aThemes Demo Sites. This is your first post. Edit or delete it, then start blogging!</p>
+
+							<a href="article2.html">Continue reading</a>
+
+						</div>
+
+					</article>
+
+				</div>
+
+				<div class="blog__column2">
+
+					<article class="blog__article blog__article3">
+							
+						<a href="article3.html"><img class="blog__image" src=".\Assets\img\graf.jpg" alt="Man with a moustache"></a>
+
+						<div class="blog__itemDetails">
+
+							<ul class="tagList">
+								<li class="tag"><a class="linkNoUnderline" href="">Work</a></li>
+							</ul>
+			
+							<div>
+								<h2>Curabitur sed arcu commodo</h2>
+								<p class="blog__postingDate">Posted on June 7, 2017</p>
+							</div>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam [...]</p>
+
+							<a href="article3.html">Continue reading</a>
+
+						</div>
+
+					</article>
+
+					<article class="blog__article blog__article4">
+							
+						<a href="article4.html"><img class="blog__image" src=".\Assets\img\gorilla.jpg" alt="Gorilla"></a>
+
+						<div class="blog__itemDetails">
+
+							<ul class="tagList">
+								<li class="tag"><a class="linkNoUnderline" href="">Work</a></li>
+							</ul>
+
+							<div>
+								<h2>Lorum Ipsum is simply dummy</h2>
+								<p class="blog__postingDate">Posted on May 3, 2017</p>
+							</div>
+
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam [...]</p>
+
+							<a href="article4.html">Continue reading</a>
+
+						</div>
+
+					</article>
+
+				</div>
+
+			</div>
+
+
+			<footer class="footer">
+
+				<nav>
+
+					<ul>
+
+						<li><a href=""></a><img src="Assets/icons/icon-social-facebook.svg" alt="Facebook"></li>
+						<li><a href=""></a><img src="Assets/icons/icon-social-twitter.svg" alt="Twitter"></li>
+						<li><a href=""></a><img src="Assets/icons/icon-social-dribble.svg" alt="Dribble"></li>
+						<li><a href=""></a><img src="Assets/icons/icon-social-linkedin.svg" alt="LinkedIn"></li>
+						<li><a href=""></a><img src="Assets/icons/icon-social-youtube.svg" alt="YouTube"></li>
+
+					</ul>
+
+				</nav>
+
+			</footer>
+
+		</main>
+
+	</body>
+</html>
