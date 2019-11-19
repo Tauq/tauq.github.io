@@ -78,11 +78,6 @@
 	display: none;
 }
 
-@media only screen and (min-width: 1200px) { /* laptop/desktop - large width */
-	.homePage__searchInput {
-		display: none;                           /******* Uncomment this out to get the search box ********/
-	}
-}
 
 .homePage__image {
 	display: block;

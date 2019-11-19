@@ -1,6 +1,18 @@
 @import "global.css";
 
 
+.article__searchInput {
+	position: absolute;
+	top: 0;
+	right:0;
+	padding: 10px;
+	display: none;
+}
+
+.sectionTitle {
+	position: relative;  /* Makes the search box appear in the section title rather than the top of the page. */
+}
+
 @media only screen and (max-width: 991px) { /* mobile - small width */
 
 	.article__article {
