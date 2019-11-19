@@ -27,7 +27,6 @@ a {
 		position: fixed;    
 		top: 0;
 		left: 0;
-		/*display: block; */                   /* Uncomment this out to get the top menu at startup */
 		background-color: black;
 		padding-bottom: 10px;
 		width: 100%;
